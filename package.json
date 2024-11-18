@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^7.1.0",
+    "dotenv": "^16.4.5",
     "inquirer": "8",
     "simple-git": "^3.27.0"
   }
