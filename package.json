@@ -1,0 +1,13 @@
+{
+  "name": "centralised-change-log",
+  "version": "1.0.0",
+  "description": "A centralised change log for multiple repo changes.",
+  "main": "index.js",
+  "author": "RZ",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "inquirer": "8",
+    "simple-git": "^3.27.0"
+  }
+}
