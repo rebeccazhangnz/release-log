@@ -6,7 +6,7 @@ const os = require('os');
 
 async function run() {
   // Configuration
-  const centralRepoUrl = `https://username:${process.env.AZURE_DEVOPS_PAT}@dev.azure.com/your-org/your-project/_git/central-changelog`; // Update with your actual URL
+  const centralRepoUrl = 'https://github.com/rebeccazhangnz/release-log/blob/master/.changelog/CHANGELOG.md'; 
   const localClonePath = path.join(os.tmpdir(), 'central-changelog');
 
   // Initialize simple-git
